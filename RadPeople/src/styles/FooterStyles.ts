@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 const BLUE_COLOR = '#1404FB';
 
@@ -23,7 +22,7 @@ export const SocialLinksColumn = styled.div`
   padding: 50px 0;
 `;
 
-export const SocialLink = styled(Link)<{ $isHomePage: boolean }>`
+export const SocialLink = styled.a<{ $isHomePage: boolean }>`
   font-family: 'NF Ultra', sans-serif;
   font-size: 17px;
   color: white;

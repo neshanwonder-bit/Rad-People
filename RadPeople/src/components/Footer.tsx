@@ -16,13 +16,13 @@ const Footer: React.FC = () => {
   return (
     <FooterContainer>
       <SocialLinksColumn>
-        <SocialLink to="mailto:contact@radpeople.us" $isHomePage={isHomePage}>
+        <SocialLink href="mailto:contact@radpeople.us" $isHomePage={isHomePage}>
             <ArrowIcon><IoArrowUpOutline /></ArrowIcon> Email 
         </SocialLink>
-        <SocialLink to="https://instagram.com/radpeople.rp" target="_blank" rel="noopener noreferrer" $isHomePage={isHomePage}>
+        <SocialLink href="https://instagram.com/radpeople.rp" target="_blank" rel="noopener noreferrer" $isHomePage={isHomePage}>
             <ArrowIcon><IoArrowUpOutline /></ArrowIcon> Instagram 
         </SocialLink>
-        <SocialLink to="https://twitter.com/radpeople" target="_blank" rel="noopener noreferrer" $isHomePage={isHomePage}>
+        <SocialLink href="https://twitter.com/radpeople" target="_blank" rel="noopener noreferrer" $isHomePage={isHomePage}>
             <ArrowIcon><IoArrowUpOutline /></ArrowIcon> Twitter
         </SocialLink>
       </SocialLinksColumn>
